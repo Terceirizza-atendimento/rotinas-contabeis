@@ -1,0 +1,34 @@
+﻿# Lista de permissões: ignora tudo, libera só código e documentação
+*
+!*/
+!.gitignore
+!README.md
+!*.py
+!*.ps1
+!*.gs
+!skills/**
+
+# Nunca versionar (dados de clientes, segredos, binários)
+MIGRACAO_NOVO_PC/
+.claude/
+.tmp.*/
+*.pfx
+*.p12
+*.pem
+*.key
+*.env
+*.json
+*.pdf
+*.png
+*.xlsx
+*.xls
+*.csv
+*.ofx
+*.xml
+*.zip
+*.log
+*.ini
+*.pyc
+__pycache__/
+saida/
+_arquivo_antigo/
