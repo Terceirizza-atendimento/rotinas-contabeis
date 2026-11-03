@@ -9,7 +9,8 @@ Este repositório contém **apenas código e documentação**. Dados de clientes
 |---|---|
 | [emitir-nfse-portal-nacional](skills/emitir-nfse-portal-nacional/SKILL.md) | Emissão no Emissor Nacional (nfse.gov.br) para prestadores do Simples e download dos DANFSe. |
 | [emitir-nfse-gm](skills/emitir-nfse-gm/SKILL.md) | Emissão das notas da GM Comunicação e Marketing, com parâmetros fixos. |
-| [automacao-dominio](skills/automacao-dominio/SKILL.md) | Automação do Domínio Contabilidade: abrir/logar, trocar empresa, integrar fiscal/folha, exportar e validar balancete/razão/plano, classificar, importar CSV, alterar lançamentos e fechar cliente. Scripts em scripts/, passo a passo em eferences/. |
+| [automacao-dominio](skills/automacao-dominio/SKILL.md) | Automação do Domínio Contabilidade: abrir/logar, trocar empresa, integrar fiscal/folha, exportar e validar balancete/razão/plano, classificar, importar CSV, alterar lançamentos e fechar cliente. Scripts em `scripts/`, passo a passo em `references/`. |
+eferences/. |
 | [enviar-notas-digisac](skills/enviar-notas-digisac/SKILL.md) | Envio dos PDFs ao cliente pelo Digisac e fechamento do chamado. |
 | [gclick-diagnostico-fiscal](skills/gclick-diagnostico-fiscal/SKILL.md) | Certidões/diagnósticos do SIEG enviados pelas tarefas "Consulta Relação Débitos" do Gclick. |
 | [sieg-baixar-diagnosticos](skills/sieg-baixar-diagnosticos/SKILL.md) | Baixa e valida diagnósticos e certidões do SIEG. |
