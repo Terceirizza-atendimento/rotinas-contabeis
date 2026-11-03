@@ -32,3 +32,6 @@ MIGRACAO_NOVO_PC/
 __pycache__/
 saida/
 _arquivo_antigo/
+
+# Domínio vive dentro de skills/automacao-dominio
+IMPORTAÇÃO DOMINIO/

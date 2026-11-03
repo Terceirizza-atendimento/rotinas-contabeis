@@ -1,11 +1,11 @@
----
+﻿---
 name: emitir-nfse-portal-nacional
 description: Emite NFS-e no Emissor Nacional (nfse.gov.br/EmissorNacional, emissão completa) para prestadores optantes pelo Simples Nacional da Terceirizza, e baixa os DANFSe (PDF) pela Consulta Pública. Use quando o usuário pedir "emitir nota", "emitir NFS-e", "emitir no portal nacional" ou mandar uma lista de tomadores/valores para emitir, mesmo sem descrever os campos. NÃO é a skill certa para a GM - COMUNICACAO E MARKETING (use emitir-nfse-gm) nem para o portal municipal de Pantano Grande/Anjos Segurança (use emitir-nfse-pantano-grande); se o prestador não estiver claro, pergunte qual é antes de abrir o portal. Cobre login manual, importar tomador do histórico, preencher as 4 etapas (Pessoas, Serviço, Valores, Emitir), confirmação antes de emitir, instabilidade do portal e download dos PDFs. Para enviar ao cliente depois, use a skill enviar-notas-digisac.
 ---
 
 # Emitir NFS-e no portal nacional (Emissão completa)
 
-> **Antes de emitir, siga a skill `emitir-nfse`** (valida o pedido, evita nDPS duplicado e registra a nota na pasta NOTAS FISCAIS EMITIDAS). Esta skill traz só os detalhes deste canal/prestador.
+> **Antes de emitir:** valide o pedido (prestador, tomador, valor, serviço), confira se a nota já não foi emitida (evita nDPS duplicado), peça o "pode emitir" e registre a nota na pasta NOTAS FISCAIS EMITIDAS. Esta skill traz os detalhes deste canal/prestador.
 
 
 Validado em 02/10/2026 emitindo 5 notas da R & J ODONTOLOGIA LTDA (Porto Alegre). Emitir é fiscalmente irreversível

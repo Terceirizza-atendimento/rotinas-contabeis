@@ -1,11 +1,11 @@
----
+﻿---
 name: emitir-nfse-gm
 description: Passo a passo completo para emitir NFS-e da GM - COMUNICACAO E MARKETING LTDA (Gabriella Freire) no portal nacional, salvar o PDF, enviar pelo Digisac e fechar o chamado. Use SEMPRE que o usuário colar um pedido de nota da Gabriella/GM ("Favor emitir uma nota", razão social, CNPJ, valor, serviço) ou disser "emita essa nota" no contexto da GM. Complementa emitir-nfse-portal-nacional e enviar-notas-digisac, com os parâmetros fixos da GM para não perguntar o óbvio.
 ---
 
 # Notas da GM - COMUNICACAO E MARKETING LTDA
 
-> **Antes de emitir, siga a skill `emitir-nfse`** (valida o pedido, evita nDPS duplicado e registra a nota na pasta NOTAS FISCAIS EMITIDAS). Esta skill traz só os detalhes deste canal/prestador.
+> **Antes de emitir:** valide o pedido (prestador, tomador, valor, serviço), confira se a nota já não foi emitida (evita nDPS duplicado), peça o "pode emitir" e registre a nota na pasta NOTAS FISCAIS EMITIDAS. Esta skill traz os detalhes deste canal/prestador.
 
 
 Regra do usuário: **não fazer perguntas óbvias**. Tudo que está fixo abaixo é usado direto. Perguntar só se algo for realmente ambíguo (serviço fora da tabela, dado do tomador que não bate, valor que não aparece).
